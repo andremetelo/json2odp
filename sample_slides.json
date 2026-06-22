@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org",
+  "title": "Presentation Data Schema",
+  "global_title_style": {
+    "font_name": "Liberation Sans",
+    "font_size": "44pt",
+    "font_weight": "bold"
+  },
+  "global_body_style": {
+    "font_name": "Liberation Sans",
+    "font_size": "22pt",
+    "font_weight": "normal"
+  },
+  "meta": {
+    "presentation_title": "Project Lifecycle Review",
+    "author": "DevOps Core Team",
+    "version": "1.9.0"
+  },
+  "slides": [
+    {
+      "id": "slide_001",
+      "title": "Q1 Performance Milestones",
+      "subtitle": "Overview of infrastructure optimizations",
+      "layout_type": "single_column",
+      "bullets": [
+        "Migrated main legacy workloads to isolated container ecosystems.",
+        "Successfully decoupled hard-coded dependencies across internal environments."
+      ]
+    },
+    {
+      "id": "slide_002",
+      "title": "Metrics Analysis",
+      "subtitle": "Performance correlation breakdown",
+      "layout_type": "text_and_graph",
+      "bullets": [
+        "Infrastructure monitoring logs indicate memory saturation drops.",
+        "Throughput trends stabilized past the network cutover phase."
+      ],
+      "graph_path": "sample_metrics_chart.jpg"
+    },
+    {
+      "id": "slide_003",
+      "title": "Regional Rollout Strategy",
+      "subtitle": "Phased geographical expansion blueprint",
+      "layout_type": "two_column",
+      "bullets": [
+        "Deploy to North American secondary zones first.",
+        "Verify edge-caching replication latency constraints."
+      ],
+      "bullets_col2": [
+        "Initiate European cluster node sync by next month.",
+        "Enforce localized data compliance structures."
+      ]
+    },
+    {
+      "id": "slide_004",
+      "title": "Core System Growth Metrics",
+      "subtitle": "Full Q1 analytical performance charts",
+      "layout_type": "graph_only",
+      "graph_path": "sample_metrics_chart.jpg",
+      "speaker_notes": [
+        "Let the audience look at the charts for a second before changing topic.",
+        "Highlight the massive surge in user registration trends during March."
+      ]
+    }
+  ]
+}
